@@ -12,7 +12,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "idle",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "🐾 Playing with cat toys! Meow~!",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -88,14 +88,14 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#F4BBD3", 
+      secondary: "#F4BBD3", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      success: "#F4BBD3", 
+      error: "#9B5F6D", 
+      warning: "#9B5F6D", 
+      info: "#F4BBD3", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -112,18 +112,18 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#F4BBD3",
+        ended: "#F4BBD3",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#F4BBD3",
+        claimed: "#F4BBD3",
+        closed: "#F4BBD3",
+        pending: "#F4BBD3",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#F4BBD3",
+      birthday: "#F4BBD3",
+      moderation: "#F4BBD3",
 
       // Ticket priority color mapping.
       priority: {
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Mrreow~!",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -164,10 +164,10 @@ export const botConfig = {
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 100,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 10000,
 
     // Daily reward amount.
     dailyAmount: 100,
@@ -209,27 +209,27 @@ export const botConfig = {
     // Priority options users/staff can assign.
     priorities: {
       none: {
-        emoji: "⚪",
+        emoji: "🥥",
         color: "#95A5A6",
         label: "None",
       },
       low: {
-        emoji: "🟢",
+        emoji: "🍈",
         color: "#2ECC71",
         label: "Low",
       },
       medium: {
-        emoji: "🟡",
+        emoji: "🥞",
         color: "#F1C40F",
         label: "Medium",
       },
       high: {
-        emoji: "🔴",
+        emoji: "🍖",
         color: "#E74C3C",
         label: "High",
       },
       urgent: {
-        emoji: "🚨",
+        emoji: "🍓",
         color: "#E91E63",
         label: "Urgent",
       },
