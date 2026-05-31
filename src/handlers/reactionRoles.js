@@ -52,17 +52,17 @@ async function handleReactionAdd(client, reaction, user) {
                     channelId: message.channel.id,
                     fields: [
                         {
-                            name: '👤 Member',
+                            name: 'Member',
                             value: `${user.tag} (${user.id})`,
                             inline: true
                         },
                         {
-                            name: '🏷️ Role',
+                            name: 'Role',
                             value: role.toString(),
                             inline: true
                         },
                         {
-                            name: '😊 Reaction',
+                            name: 'Reaction',
                             value: reaction.emoji.toString(),
                             inline: true
                         }
@@ -126,17 +126,17 @@ async function handleReactionRemove(client, reaction, user) {
                     channelId: message.channel.id,
                     fields: [
                         {
-                            name: '👤 Member',
+                            name: 'Member',
                             value: `${user.tag} (${user.id})`,
                             inline: true
                         },
                         {
-                            name: '🏷️ Role',
+                            name: 'Role',
                             value: role.toString(),
                             inline: true
                         },
                         {
-                            name: '😊 Reaction',
+                            name: 'Reaction',
                             value: reaction.emoji.toString(),
                             inline: true
                         }
